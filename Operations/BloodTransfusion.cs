@@ -8,9 +8,21 @@ namespace RealMedicine.Operations
     {
         public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
         {
-            var diff = pawn.health.hediffSet.hediffs.Find(hediff => hediff.def.defName == "BloodLoss");
+            var diff = GetBloodLoss(pawn);
             if (diff == null) return;
             diff.Severity = diff.Severity - 0.5f;
         }
+
+        private static Hediff GetBloodLoss(Pawn pawn)
+        {
+            return pawn.health.hediffSet.hediffs.Find(hediff => hediff.def.defName == "BloodLoss");;
+        }
+
+        public override string GetLabelWhenUsedOn(Pawn pawn, BodyPartRecord part)
+        {
+            return GetBloodLoss(pawn) == null ? null : base.GetLabelWhenUsedOn(pawn, part);
+        }
+        
+        
     }
 }

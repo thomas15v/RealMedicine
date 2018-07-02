@@ -96,10 +96,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="About\About.xml" />
     <Content Include="Assemblies\0Harmony.dll" />
     <Content Include="Assemblies\RealMedicine.dll" />
     <Content Include="Defs\Operations.xml" />
     <Content Include="Patches\HediffDef\BloodLoss.xml" />
+    <Content Include="Patches\ThingDefs_Races\Races_Humanlike.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

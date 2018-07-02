@@ -3,8 +3,8 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>BloodTransfusion</defName>
-    <label>Replenished someone's blood supply</label>
-    <description>Something</description>
+    <label>BloodTransfusion</label>
+    <description>Replenished someone's blood supply</description>
     <workerClass>RealMedicine.Operations.BloodTransfusion</workerClass>
     <jobString>BloodTransfusion</jobString>
     <workAmount>500</workAmount>
