@@ -88,9 +88,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Harmony\HediffGiver_Bleeding.cs" />
     <Compile Include="Harmony\HediffPath.cs" />
     <Compile Include="HediffComp\BloodLoss.cs" />
+    <Compile Include="Operations\BloodDonation.cs" />
     <Compile Include="Operations\BloodTransfusion.cs" />
+    <Compile Include="Operations\RealMedicineOperation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RealMedicine.cs" />
   </ItemGroup>

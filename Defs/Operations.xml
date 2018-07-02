@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef>
     <defName>BloodTransfusion</defName>
-    <label>BloodTransfusion</label>
-    <description>Replenished someone's blood supply</description>
+    <label>Perform Blood Transfusion</label>
+    <description>Replenished someone's blood supply.</description>
     <workerClass>RealMedicine.Operations.BloodTransfusion</workerClass>
     <jobString>BloodTransfusion</jobString>
     <workAmount>500</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>false</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>BloodDonation</defName>
+    <label>Donate blood</label>
+    <description>Take 25% of a pawns blood. Doctors say it is recomended to wait a day before doing it again.</description>
+    <workerClass>RealMedicine.Operations.BloodDonation</workerClass>
+    <jobString>BloodDonation</jobString>
+    <workAmount>500</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <isViolation>false</isViolation>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
     <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
     <ingredients>
       <li>

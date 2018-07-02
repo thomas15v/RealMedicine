@@ -5,6 +5,7 @@
     <xpath>//ThingDef[defName = "Human"]/recipes</xpath>
     <value>
       <li>BloodTransfusion</li>
+      <li>BloodDonation</li>
     </value>
   </Operation>
 </Patch>
