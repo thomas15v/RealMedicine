@@ -17,7 +17,7 @@
       <li>
         <filter>
           <categories>
-            <li>Medicine</li>
+            <li>BloodBag</li>
           </categories>
         </filter>
         <count>1</count>
@@ -25,7 +25,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <categories>
-        <li>Medicine</li>
+        <li>BloodBag</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -46,7 +46,7 @@
       <li>
         <filter>
           <categories>
-            <li>Medicine</li>
+            <li>EmptyBag</li>
           </categories>
         </filter>
         <count>1</count>
@@ -54,7 +54,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <categories>
-        <li>Medicine</li>
+        <li>EmptyBag</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>

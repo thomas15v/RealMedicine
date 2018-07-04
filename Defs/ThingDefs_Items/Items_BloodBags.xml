@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="Basic">
+		<defName>EmptyBag</defName>
+		<label>Empty Bag</label>
+		<description>A sterile plastic bag.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/Organ</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="Basic">
+		<defName>BloodBag</defName>
+		<label>Blood Bag</label>
+		<description>A bag full of blood</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/Organ</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>200</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>
