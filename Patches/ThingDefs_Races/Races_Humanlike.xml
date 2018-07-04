@@ -2,7 +2,7 @@
 <Patch>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>//ThingDef[defName = "Human"]/recipes</xpath>
+    <xpath>*/ThingDef[defName = "Human"]/recipes</xpath>
     <value>
       <li>BloodTransfusion</li>
       <li>BloodDonation</li>

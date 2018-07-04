@@ -8,7 +8,7 @@ namespace RealMedicine.Operations
     {
         public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
         {
-            HealthUtility.AdjustSeverity(pawn, HediffDefOf.BloodLoss, -0.25f);
+            HealthUtility.AdjustSeverity(pawn, HediffDefOf.BloodLoss, -0.20f);
         }        
     }
 }
