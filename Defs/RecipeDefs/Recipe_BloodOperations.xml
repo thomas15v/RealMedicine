@@ -16,17 +16,17 @@
     <ingredients>
       <li>
         <filter>
-          <categories>
+          <thingDefs>
             <li>BloodBag</li>
-          </categories>
+          </thingDefs>
         </filter>
         <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <categories>
+      <thingDefs>
         <li>BloodBag</li>
-      </categories>
+      </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -45,17 +45,17 @@
     <ingredients>
       <li>
         <filter>
-          <categories>
+          <thingDefs>
             <li>EmptyBag</li>
-          </categories>
+          </thingDefs>
         </filter>
         <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <categories>
+      <thingDefs>
         <li>EmptyBag</li>
-      </categories>
+      </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
 

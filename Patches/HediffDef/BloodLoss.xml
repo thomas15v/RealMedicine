@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-  <!-- <Operation Class="PatchOperationAdd">
-	  <xpath>//HediffDef[defName = "BloodLoss"]</xpath>
-	  <value>
-      <tendable>true</tendable>
-      <comps>
-        <li Class="HediffCompProperties_TendDuration">
-          <tendDuration>30000</tendDuration>
-          <severityPerDayTended>-0.20</severityPerDayTended>
-        </li>
-      </comps>
-    </value>
-	</Operation> -->
+
 </Patch>

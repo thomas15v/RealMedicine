@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="Basic">
+	<ThingDef ParentName="ResourceBase">
 		<defName>EmptyBag</defName>
 		<label>Empty Bag</label>
 		<description>A sterile plastic bag.</description>
@@ -8,23 +8,51 @@
 			<texPath>Things/Item/BodyPart/Organ</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>20</MarketValue>
-			<Mass>1</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>10</MarketValue>
+			<Mass>0.35</Mass>
+			<Flammability>1.0</Flammability>
+			<MedicalPotency>0.60</MedicalPotency>
+			<DeteriorationRate>6</DeteriorationRate>
 		</statBases>
+		<thingCategories>
+			<li>Medicine</li>
+		</thingCategories>
+		<tickerType>Rare</tickerType>
 	</ThingDef>
 
-	<ThingDef ParentName="Basic">
+	<ThingDef ParentName="ResourceBase">
 		<defName>BloodBag</defName>
 		<label>Blood Bag</label>
-		<description>A bag full of blood</description>
+		<description>A bag full of blood.</description>
 		<graphicData>
 			<texPath>Things/Item/BodyPart/Organ</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>200</MarketValue>
-			<Mass>1</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>10</MarketValue>
+			<Mass>0.35</Mass>
+			<Flammability>1.0</Flammability>
+			<MedicalPotency>0.60</MedicalPotency>
+			<DeteriorationRate>6</DeteriorationRate>
 		</statBases>
+		<thingCategories>
+			<li>Medicine</li>
+		</thingCategories>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>15</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
 	</ThingDef>
 </Defs>
